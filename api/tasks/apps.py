@@ -1,6 +1,8 @@
 from django.apps import AppConfig
+import os
 
-
-class TrialConfig(AppConfig):
+class TasksConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'trial'
+    name = 'tasks'
+
+
